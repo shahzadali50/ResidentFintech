@@ -1636,8 +1636,12 @@
     font-weight: 400;
   
   }
+<<<<<<< Updated upstream
   
 
+=======
+ 
+>>>>>>> Stashed changes
   /* Media Query */
   @media only screen and (max-width: 1200px) {}
 
@@ -1646,3 +1650,4 @@
   @media only screen and (max-width: 768px) {}
 
   @media only screen and (max-width: 576px) {}
+  
