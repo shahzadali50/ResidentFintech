@@ -1535,6 +1535,11 @@
     list-style: none;
     word-wrap: break-word;
     box-sizing: border-box;
+    font-family: 'Acumin Pro Bold';
+  }
+  body{
+    font-family: 'Acumin Pro Bold';
+
   }
 
   html {
@@ -1557,8 +1562,10 @@
 
   .btn {
     border-radius: 24px;
-    width: 116px;
+    width: 100px;
+    min-height: 40px;
     font-size: 16px;
+    
   }
 
   .btn:focus,
@@ -1569,8 +1576,8 @@
   }
 
   .btn-primary {
-    background: #FF5E3A;
-    border-color: #FF5E3A;
+    background: #C17B31;
+    border-color: #C17B31;
     color: white;
 
   }
@@ -1578,16 +1585,9 @@
   .btn-primary:hover,
   .btn-primary:focus,
   .btn-primary:active {
-    background: #b94329;
+    background: #e68b2a;
     color: white;
-    border-color: #b94329;
-  }
-
-  .btn-secondary {
-    background: transparent;
-    border: 1px solid #FF5E3A;
-    color: #FF5E3A;
-
+    border: 1px solid  #e68b2a;
   }
 
   .form-control:focus {
@@ -1595,11 +1595,48 @@
     outline: none;
   }
 
-  .text-50px {
-    font-size: 50px;
-    color: black !important;
-    line-height: 76px;
+  .text-64px {
+    font-size: 64px;
+    line-height: 70px;
+    color: #000000;
+  
   }
+  .text-48px {
+    font-size: 48px;
+    line-height: 70px;
+    color: #000000;
+  
+  }
+  .text-24px {
+    font-size: 24px;
+    line-height: 70px;
+    color: #C17B31;
+   
+    letter-spacing: 3px;
+  
+  }
+  .text-18px {
+    font-size: 18px;
+    line-height: 32px;
+    color: #929292;
+    font-weight: 400;
+  
+  }
+  .text-16px {
+    font-size: 16px;
+    line-height: 26px;
+    color: #929292;
+    font-weight: 400;
+  
+  }
+  .text-13px {
+    font-size: 14px;
+    line-height: 22px;
+    color: #929292;
+    font-weight: 400;
+  
+  }
+  
 
   /* Media Query */
   @media only screen and (max-width: 1200px) {}
