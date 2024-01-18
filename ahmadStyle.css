@@ -1,291 +1,81 @@
-.bg-warning {
-  background-color: #ffc107 !important;
+/* custom styles */
+/* services */
+.services-text {
+  text-align: center;
 }
-.text-center {
-  text-align: center !important;
-}
-.grid_auto_column {
+.services-card-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(201px, 1fr));
-  grid-gap: 0.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(201px, 5fr));
+  grid-gap: 1rem;
   align-items: flex-start;
-}
-.rounded-sm {
-  border-radius: 0.2rem !important;
-}
-.rounded {
-  border-radius: 0.25rem !important;
-}
-.rounded-top {
-  border-top-left-radius: 0.25rem !important;
-  border-top-right-radius: 0.25rem !important;
-}
-.rounded-right {
-  border-top-right-radius: 0.25rem !important;
-  border-bottom-right-radius: 0.25rem !important;
-}
-.rounded-bottom {
-  border-bottom-right-radius: 0.25rem !important;
-  border-bottom-left-radius: 0.25rem !important;
-}
-.rounded-left {
-  border-top-left-radius: 0.25rem !important;
-  border-bottom-left-radius: 0.25rem !important;
-}
-.rounded-lg {
-  border-radius: 0.3rem !important;
-}
-.rounded-xl {
-  border-radius: 0.5rem !important;
-}
-.rounded-xxl {
-  border-radius: 1rem !important;
-}
-.rounded-circle {
-  border-radius: 50% !important;
-}
-.rounded-pill {
-  border-radius: 50rem !important;
-}
-.rounded-0 {
-  border-radius: 0 !important;
+  padding: 30px 0;
 }
 .services-card {
-  border: 1px solid #e2e2e2;
+  width: 201px;
   height: 201px;
+  box-shadow: 0px 1px 5px 0px rgba(32, 32, 32, 0.75);
+
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.w-fit {
+.services-card:hover {
+  background-color: #c17b31;
+  color: white;
+}
+.services-card:hover .services-card-icon {
+  background-color: rgb(214, 168, 119);
+}
+
+.services-card-icon {
+  background-color: #c17b31;
   width: fit-content;
-}
-/* padding */
-.p-0 {
-  padding: 0 !important;
-}
-.pt-0,
-.py-0 {
-  padding-top: 0 !important;
-}
-.pr-0,
-.px-0 {
-  padding-right: 0 !important;
-}
-.pb-0,
-.py-0 {
-  padding-bottom: 0 !important;
-}
-.pl-0,
-.px-0 {
-  padding-left: 0 !important;
-}
-.p-1 {
-  padding: 0.25rem !important;
-}
-.pt-1,
-.py-1 {
-  padding-top: 0.25rem !important;
-}
-.pr-1,
-.px-1 {
-  padding-right: 0.25rem !important;
-}
-.pb-1,
-.py-1 {
-  padding-bottom: 0.25rem !important;
-}
-.pl-1,
-.px-1 {
-  padding-left: 0.25rem !important;
-}
-.p-2 {
-  padding: 0.5rem !important;
-}
-.pt-2,
-.py-2 {
-  padding-top: 0.5rem !important;
-}
-.pr-2,
-.px-2 {
-  padding-right: 0.5rem !important;
-}
-.pb-2,
-.py-2 {
-  padding-bottom: 0.5rem !important;
-}
-.pl-2,
-.px-2 {
-  padding-left: 0.5rem !important;
-}
-.p-3 {
-  padding: 1rem !important;
-}
-.pt-3,
-.py-3 {
-  padding-top: 1rem !important;
-}
-.pr-3,
-.px-3 {
-  padding-right: 1rem !important;
-}
-.pb-3,
-.py-3 {
-  padding-bottom: 1rem !important;
-}
-.pl-3,
-.px-3 {
-  padding-left: 1rem !important;
-}
-.p-4 {
-  padding: 1.5rem !important;
-}
-.pt-4,
-.py-4 {
-  padding-top: 1.5rem !important;
-}
-.pr-4,
-.px-4 {
-  padding-right: 1.5rem !important;
-}
-.pb-4,
-.py-4 {
-  padding-bottom: 1.5rem !important;
-}
-.pl-4,
-.px-4 {
-  padding-left: 1.5rem !important;
-}
-.p-5 {
-  padding: 3rem !important;
-}
-.pt-5,
-.py-5 {
-  padding-top: 3rem !important;
-}
-.pr-5,
-.px-5 {
-  padding-right: 3rem !important;
-}
-.pb-5,
-.py-5 {
-  padding-bottom: 3rem !important;
-}
-.pl-5,
-.px-5 {
-  padding-left: 3rem !important;
-}
-.d-grid {
-  display: grid !important;
-}
-.g-0 {
-  grid-gap: 0 !important;
-}
-.g-1 {
-  grid-gap: 0.25rem !important;
-}
-.g-2 {
-  grid-gap: 0.5rem !important;
-}
-.g-3 {
-  grid-gap: 1rem !important;
-}
-.g-4 {
-  grid-gap: 1.5rem !important;
-}
-.g-5 {
-  grid-gap: 3rem !important;
-}
-.g-6 {
-  grid-gap: 4.5rem !important;
-}
-.g-7 {
-  grid-gap: 6rem !important;
-}
-.g-8 {
-  grid-gap: 8rem !important;
-}
-.g-9 {
-  grid-gap: 10rem !important;
-}
-.g-10 {
-  grid-gap: 12rem !important;
-}
-.g-11 {
-  grid-gap: 14rem !important;
-}
-.g-12 {
-  grid-gap: 16rem !important;
-}
-.g-13 {
-  grid-gap: 18rem !important;
-}
-.g-14 {
-  grid-gap: 20rem !important;
-}
-.g-15 {
-  grid-gap: 22rem !important;
-}
-.item-center {
-  align-items: center !important;
-}
-.justify-center {
-  justify-content: center !important;
-}
-.justify-between {
-  justify-content: space-between !important;
-}
-.justify-around {
-  justify-content: space-around !important;
-}
-.justify-evenly {
-  justify-content: space-evenly !important;
-}
-.align-baseline {
-  align-items: baseline !important;
-}
-.align-top {
-  align-items: flex-start !important;
-}
-.align-middle {
-  align-items: center !important;
-}
-.align-bottom {
-  align-items: flex-end !important;
-}
-.align-stretch {
-  align-items: stretch !important;
-}
-.align-content-start {
-  align-content: flex-start !important;
-}
-.align-content-end {
-  align-content: flex-end !important;
-}
-.align-content-center {
-  align-content: center !important;
-}
-.align-content-between {
-  align-content: space-between !important;
-}
-.align-content-around {
-  align-content: space-around !important;
-}
-.align-content-stretch {
-  align-content: stretch !important;
-}
-.align-self-auto {
-  align-self: auto !important;
-}
-.align-self-start {
-  align-self: flex-start !important;
-}
-.align-self-end {
-  align-self: flex-end !important;
-}
-.align-self-center {
-  align-self: center !important;
-}
-.align-self-baseline {
-  align-self: baseline !important;
-}
-.align-self-stretch {
-  align-self: stretch !important;
+  padding: 0 8px;
+  padding-top: 8px;
+  border-radius: 0.5rem;
+}
+/* about us */
+.aboutUs-section {
+  background-color: #f3f3f3;
+}
+.aboutUs-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
+  grid-gap: 1rem;
+  align-items: flex-start;
+  padding: 30px 0;
+}
+.white-circle {
+  background-color: white;
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.yellow-circle {
+  background-color: #c17b31;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutUs-container {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+  }
+  .white-circle {
+    width: 200px;
+    height: 200px;
+  }
+  .yellow-circle {
+    width: 300px;
+    height: 300px;
+  }
 }

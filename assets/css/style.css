@@ -1629,6 +1629,13 @@
     font-weight: 400;
   
   }
+  .text-16px-yellow {
+    font-size: 16px;
+    line-height: 26px;
+    color:  #C17B31;
+    font-weight: 400;
+  
+  }
   .text-13px {
     font-size: 14px;
     line-height: 22px;
