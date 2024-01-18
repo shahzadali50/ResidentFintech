@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'Acumin Pro';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Acumin Pro'), url('../fonts/Acumin-RPro.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Acumin Pro Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Acumin Pro Italic'), url('../fonts/Acumin-ItPro.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Acumin Pro Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Acumin Pro Bold'), url('../fonts/Acumin-BdPro.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Acumin Pro Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Acumin Pro Bold Italic'), url('../fonts/Acumin-BdItPro.woff') format('woff');
+  }
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  word-wrap: break-word;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a:hover {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+
+.btn{
+  border-radius: 24px;
+  width: 116px; 
+  font-size: 16px;
+}
+.btn:focus,
+.btn:active,
+.btn:hover {
+  outline: none;
+  box-shadow: none;
+}
+.btn-primary {
+  background: #FF5E3A;
+  border-color: #FF5E3A;
+  color: white;
+
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background: #b94329;
+  color: white  ;
+  border-color: #b94329;
+}
+.btn-secondary {
+  background: transparent;
+  border: 1px solid #FF5E3A;
+  color: #FF5E3A;
+
+}
+.form-control:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.text-50px{
+  font-size: 50px;
+  color: black !important;
+  line-height: 76px;
+}
+
+/* Media Query */
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 576px) {
+}
