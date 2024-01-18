@@ -28,6 +28,12 @@
     font-weight: normal;
     src: local('Acumin Pro Bold Italic'), url('../fonts/Acumin-BdItPro.woff') format('woff');
   }
+  @font-face {
+    font-family: 'DMSans-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Acumin Pro Bold Italic'), url('../fonts/DMSans-Regular.ttf') format('woff');
+  }
 
 
   * {
@@ -99,19 +105,16 @@
 
   .text-64px {
     font-size: 64px;
-    line-height: 70px;
     color: #000000;
   
   }
   .text-48px {
     font-size: 48px;
-    line-height: 70px;
     color: #000000;
   
   }
   .text-24px {
     font-size: 24px;
-    line-height: 70px;
     color: #C17B31;
    
     letter-spacing: 3px;
@@ -119,21 +122,18 @@
   }
   .text-18px {
     font-size: 18px;
-    line-height: 32px;
     color: #929292;
     font-weight: 400;
   
   }
   .text-16px {
     font-size: 16px;
-    line-height: 26px;
     color: #929292;
     font-weight: 400;
   
   }
   .text-13px {
     font-size: 14px;
-    line-height: 22px;
     color: #929292;
     font-weight: 400;
   
