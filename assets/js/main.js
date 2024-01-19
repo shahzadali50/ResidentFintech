@@ -25,3 +25,13 @@ $(document).ready(function(){
     })
   
 })
+$(document).ready(function () {
+    $(".app-section .owl-carousel").owlCarousel({
+        items: 4,
+        margin:20,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true
+    });
+});

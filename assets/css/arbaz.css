@@ -1,0 +1,49 @@
+.text-20px{
+    font-family: Acumin Pro;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: #000000;
+    font-family: 'Acumin Pro Bold';
+
+}
+.offer-card{
+    padding-top: 20px;
+    padding: 10px;
+    border-radius: 14px;
+}
+.offer-card .btn{
+    color: #C17B31;
+    background: transparent;
+}
+.offer-card:hover{
+    background-color: #C17B31;
+    box-shadow: 0px 23px 50px 0px #00000021;
+
+}
+.offer-card:hover .text-20px,.offer-card:hover .text-16px,.offer-card:hover .btn{
+    color: #fff;
+    background-color: transparent;
+}
+.offer-card  span{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    background: #C17B31;
+    color: white;
+
+}
+.offer-card:hover  span{
+    background: #fff;
+    color: #C17B31;
+}
+
+.offer-card .icon-box img{
+    display: inline-block;
+   max-width: 25px;
+
+}

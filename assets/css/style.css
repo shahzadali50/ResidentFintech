@@ -43,10 +43,10 @@
     list-style: none;
     word-wrap: break-word;
     box-sizing: border-box;
-    font-family: 'Acumin Pro Bold';
+    font-family: 'Acumin Pro';
   }
   body{
-    font-family: 'Acumin Pro Bold';
+    font-family: 'Acumin Pro';
 
   }
 
@@ -102,45 +102,35 @@
     box-shadow: none;
     outline: none;
   }
-<<<<<<< HEAD
+
 
   .text-64px {
     font-size: 64px;
     color: #000000;
+  }
   
-=======
   section{
     padding: 50px 0px;
   }
-<<<<<<< HEAD
   .text-16px {
     font-size: 16px;
-    line-height: 26px;
+  
     color: #929292;
     font-weight: 400;
   
   }
   .text-16px-yellow {
     font-size: 16px;
-    line-height: 26px;
     color:  #C17B31;
     font-weight: 400;
   
   }
   .text-13px {
     font-size: 14px;
-    line-height: 22px;
     color: #929292;
     font-weight: 400;
   
-=======
 
-  .text-50px {
-    font-size: 50px;
-    color: black !important;
-    line-height: 76px;
->>>>>>> 1c143472fee4c953a81a71f788fe8d41bd13797c
->>>>>>> 56d4504ebbadd1f035dc01452da71343949fe29a
   }
   .text-48px {
     font-size: 48px;
@@ -150,8 +140,8 @@
   .text-24px {
     font-size: 24px;
     color: #C17B31;
-   
     letter-spacing: 3px;
+   
   
   }
   .text-18px {
