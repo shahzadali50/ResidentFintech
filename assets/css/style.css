@@ -104,14 +104,30 @@
   }
 
 
-  .text-64px {
-    font-size: 64px;
-    color: #000000;
-  }
-  
+ 
   section{
     padding: 50px 0px;
   }
+  .text-64px {
+    font-size: 64px;
+    color: #000000;
+    font-family: 'Acumin Pro Bold';
+  }
+  .text-48px {
+    font-size: 48px;
+    color: #000000;
+    font-family: 'Acumin Pro Bold';
+  
+  }
+  .text-24px {
+    font-size: 24px;
+    color: #C17B31;
+    letter-spacing: 3px;
+    font-family: 'Acumin Pro Bold';
+   
+  
+  }
+  
   .text-16px {
     font-size: 16px;
   
@@ -132,18 +148,8 @@
   
 
   }
-  .text-48px {
-    font-size: 48px;
-    color: #000000;
+ 
   
-  }
-  .text-24px {
-    font-size: 24px;
-    color: #C17B31;
-    letter-spacing: 3px;
-   
-  
-  }
   .text-18px {
     font-size: 18px;
     color: #929292;
